@@ -1,0 +1,46 @@
+.text {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: fit-content;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.text > p {
+  background-color: #f3f3f3;
+  font-size: medium;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 10px;
+  margin-right: auto;
+}
+
+.text > small {
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  font-size: 8px;
+  color: gray;
+}
+
+.text__sender {
+  margin-right: unset;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.text__sender > .text__photo {
+  order: 1;
+  margin: 15px;
+}
+
+.text__photo {
+  order: 0;
+}
+
+.text__sender > p {
+  background-color: #3cabfa;
+  color: white;
+}
